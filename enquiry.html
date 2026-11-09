@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Search Engine Indexing Controls -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Mangaverse Collectibles">
+    <meta name="keywords" content="anime figures, manga box sets, acrylic keychains, anime collectibles South Africa, cosplay replicas, katanas">
+
+   
+    <title>Submit a Product Enquiry | Custom Anime Imports</title>
+    <meta name="description" content="Looking for a rare restock, specific figure manufacturer, or Japanese import? Submit an enquiry form with your target budget and specifications.">
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1, h2, h3 {
+            font-family: 'Amasis MT Pro', 'Georgia', serif;
+        }
+    </style>
+</head>
+<body>
+ 
+        <!-- Navigation bar for all pages -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Mangaverse</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="enquiry.html">Enquiry Form</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header>
+        <h1>Stock & Pre-Order Allocation Enquiry</h1>
+    </header>
+
+    
+    <main class="container">
+    <!-- Form Card Structure Wrapper -->
+    <div class="form-card-wrapper">
+        <h2>Submit a Product Request</h2>
+        <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem;">
+            Use the form below to enquire about specific restocks, custom pricing, or rare figurine imports directly from Japan.
+        </p>
+
+        <!-- Linked with 'interactive-form' hook for the dynamic JavaScript -->
+        <form class="interactive-form" action="#" method="POST">
+            
+            <!-- Section 1: Customer Contact Data -->
+            <div class="form-section-block">
+                <div class="form-section-title">Customer Information</div>
+                
+                <div class="form-field-flex" style="margin-bottom: 15px;">
+                    <label class="form-label-text" for="fullname">Full Name</label>
+                    <input type="text" id="fullname" class="form-input-field" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-field-flex">
+                    <label class="form-label-text" for="email">Email Address</label>
+                    <input type="email" id="email" class="form-input-field" placeholder="collector@mangaverse.com" required>
+                </div>
+            </div>
+
+            <!-- Section 2: Collectible Data Fields -->
+            <div class="form-section-block">
+                <div class="form-section-title">Enquiry Specification</div>
+                
+                <div class="form-field-flex" style="margin-bottom: 15px;">
+                    <label class="form-label-text" for="classification">Product Classification</label>
+                    <select id="classification" class="form-input-field">
+                        <option value="shonen">Shonen Collectibles</option>
+                        <option value="scale">Scale Figures (1/7, 1/8)</option>
+                        <option value="nendoroid">Chibi / Nendoroid Figures</option>
+                        <option value="manga">Manga Box Sets & Novel Variants</option>
+                        <option value="replica">Cosplay Props & Replica Swords</option>
+                    </select>
+                </div>
+
+                <!-- Split Row: Crucial parameters for a professional importer form -->
+                <div class="form-row-split">
+                    <div class="form-field-flex">
+                        <label class="form-label-text" for="manufacturer">Preferred Manufacturer</label>
+                        <input type="text" id="manufacturer" class="form-input-field" placeholder="e.g., Good Smile, Kotobukiya">
+                    </div>
+                    <div class="form-field-flex">
+                        <label class="form-label-text" for="budget">Target Budget (ZAR)</label>
+                        <input type="number" id="budget" class="form-input-field" placeholder="e.g., 1500" min="0">
+                    </div>
+                </div>
+
+                <div class="form-field-flex" style="margin-top: 15px;">
+                    <label class="form-label-text" for="details">Details of Requested Item</label>
+                    <textarea id="details" class="form-input-field" placeholder="Please specify figure manufacturer series, character variations, or specific manga volume details..." required></textarea>
+                </div>
+            </div>
+
+            <!-- Action Trigger Button -->
+            <button type="submit" class="btn-primary" style="width: 100%; padding: 14px; font-size: 1.05rem; margin-top: 10px;">
+                Submit Request
+            </button>
+
+        </form>
+    </div>
+</main>
+
+
+    <!-- Footer for cpopyright -->
+     
+  <footer>
+    <p>© 2026 Mangaverse Collectibles. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
